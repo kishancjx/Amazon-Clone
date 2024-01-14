@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    
 
 }
 
@@ -15,11 +16,16 @@ body {
     border: none;
 }
 
+header{
 
+/* 
+    width: 100vw;
+    margin: 0 auto; */
+
+}
 
 
 /* #region  NAVBAR*/
-
 
 
 .nav-hover-border:hover {
@@ -31,6 +37,7 @@ body {
 .navbar {
     background-color: #011820;
     height: 60px;
+    width: 100%;
     display: flex;
     align-items: center;
     color: aliceblue;
@@ -357,6 +364,41 @@ body {
 
 
 }
+
+
+
+
+
+
+
+.row2boxvideo{
+
+    /* border: 5px solid black; */
+    grid-column: 1/3;
+    /* width: 100px; */
+    height: 380px;
+
+    position: relative;
+    display: flex;
+    
+}
+
+.gradient{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(180deg, black 0%, transparent 30%, transparent 70%, black 100%);
+    
+    
+    position: absolute;
+}
+
+.img-row2boxvideo{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
 
 
 

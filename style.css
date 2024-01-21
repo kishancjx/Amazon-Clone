@@ -21,6 +21,7 @@ header{
 /* 
     width: 100vw;
     margin: 0 auto; */
+    overflow: hidden;
 
 }
 
@@ -39,6 +40,7 @@ header{
     height: 60px;
     width: 100%;
     display: flex;
+    
     align-items: center;
     color: aliceblue;
     justify-content: space-evenly;
@@ -185,6 +187,7 @@ header{
 
 
 .middle-section {
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(4, 300px);
     grid-template-rows: repeat(8, 1fr);
@@ -200,6 +203,7 @@ header{
     justify-self: center;
     align-self: center;
     max-width: 1262px;
+    
     margin-left: auto;
     margin-right: auto;
 }
